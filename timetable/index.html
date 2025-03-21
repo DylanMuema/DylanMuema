@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: auto;
+            padding: auto;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        h2 {
+            margin-bottom: auto;
+        }
+        .timetable {
+            width: 90%;
+            margin: auto;
+            border-collapse: collapse;
+            background: white;
+        }
+        .timetable th, .timetable td {
+            border: 1px solid #ddd;
+            padding: auto;
+            text-align: center;
+        }
+        .timetable th {
+            background-color: #090909;
+            color: white;
+        }
+        .timetable tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h2>Weekly Timetable</h2>
+    <table class="timetable">
+        <tr>
+            <th rowspan="1">day/time</th>
+            <th colspan="1">8.00-8.10</th>
+            <th colspan="2"></th>
+            <th colspan="3">8.010-8.55</th>
+            <th colspan="4">9.00-9.45</th>
+            <th colspan="5">9.45-10.15</th>
+            <th colspan="6">10.15-11.00</th>
+            <th colspan="7">11.05-11.50</th>
+            <th colspan="8">11.55-12.40</th>
+            <th colspan="9">12.45-1.30</th>
+            <th colspan="10">1.30-2.15</th>
+            <th colspan="11">2.20-3.05</th>
+            <th colspan="12">3.10-3.55</th>
+            <th colspan="13">3.55-4.00</th>
+        </tr>
+        <tr>
+            <th rowspan="2">MON</th>
+            <td colspan="1">FORM</td>
+            <td colspan="2">Yr.7</td>
+            <td colspan="3">DEVOTIO</td>
+            <td colspan="4">ICT 2</td>
+            <td colspan="5">BREAK</td>
+            <td colspan="6">MATH 11</td>      
+            <td colspan="7">ENG17</td>
+            <td colspan="8">P.E13</td>
+            <td colspan="9">LUNCH</td>
+            <td colspan="10">GEO 15</td>
+            <td colspan="11">SCIENCE 9</td>
+            <td colspan="12">MUSIC 8</td>
+            <td colspan="13">FORMS TUTORS TIME</td>
+        </tr>
+        <tr>
+            <td colspan="1"></td>
+            <td colspan="2">Yr.8</td>
+            <td colspan="3"></td>
+            <td colspan="4">MATH 11</td>
+            <td colspan="5"></td>
+            <td colspan="6">SCIENCE 9</td>
+            <td colspan="7">art 18</td>
+            <td colspan="8">P.E 13</td>
+            <td colspan="9"></td>
+            <td colspan="10">ENG 17</td>
+            <td colspan="11">L.S 14</td>
+            <td colspan="12">L.S 14</td>
+            <td colspan="13"></td>
+        </tr>     
+        <tr>
+            <th rowspan="2"></th>
+            <td colspan="1"></td>
+            <td colspan="2">Yr.9</td>
+            <td colspan="3"></td>
+            <td colspan="4">ENG 17</td>
+            <td colspan="5"></td>
+            <td colspan="6">HIST 10</td>
+            <td colspan="7">SCIENCE 9</td>
+            <td colspan="8">SWA13/FRE5/CH16</td>
+            <td colspan="9"></td>
+            <td colspan="10">BUS 11</td>
+            <td colspan="11">MATH 4</td>
+            <td colspan="12">P.E 13</td>
+            <td colspan="13"></td>           
+        </tr>
+        <tr>
+            <td colspan="1"></td>
+            <td colspan="2">Yr.10</td>
+            <td colspan="3"></td>
+            <td colspan="4">ENG 7</td>
+            <td colspan="5"></td>
+            <td colspan="6">L.S 14</td>
+            <td colspan="7">L.S 14</td>
+            <td colspan="8">MATH 4</td>
+            <td colspan="9"></td>
+            <td colspan="10">BIO 19</td>
+            <td colspan="11">GEO 15</td>
+            <td colspan="12">HIST 10</td>
+            <td colspan="13"></td>
+        </tr>
+        <tr>
+            <th rowspan></th>
+            <td colspan="1"></td>
+            <td colspan="2">Yr.11</td>
+            <td colspan="3"></td>
+            <td colspan="4">GEO15/FRE </td>
+            <td colspan="5"></td>
+            <td colspan="6">BIO 3</td>
+            <td colspan="7">FRE/ICT12</td>
+            <td colspan="8">ENG 7</td>
+            <td colspan="9"></td>
+            <td colspan="10">PHY 16</td>
+            <td colspan="11">SWA 13</td>
+            <td colspan="12">MATH 4</td>
+            <td colspan="13"></td>
+        </tr>
+        <tr>
+            <th rowspan="3">TUE</th>
+            <td colspan="1">TUTORS</td>
+            <td colspan="2">Yr.7</td>
+            <td colspan="3">SCIENCE 9</td>
+            <td colspan="4">LIB</td>
+            <td colspan="5"></td>
+            <td colspan="6">MATHS 11</td>
+            <td colspan="7">ART 18</td>
+            <td colspan="8">P.E 13</td>
+            <td colspan="9">LUNCH</td>
+            <td colspan="10">ENG 17</td>
+            <td colspan="11">HIST 1</td>
+            <td colspan="12">GENDER MEETING/DEBATE</td>
+            <td colspan="13">FORMS TUTORS TIME</td>
+        </tr>
+        <tr>
+            <td colspan="1"></td>
+            <td colspan="2">Yr.8</td>
+            <td colspan="3">MATH 11</td>
+            <td colspan="4">SCIENCE 9</td>
+            <td colspan="5"></td>
+            <td colspan="6">ENG 17</td>
+            <td colspan="7">GEO 15</td>
+            <td colspan="8">P.E 13</td>
+            <td colspan="9"></td>
+            <td colspan="10">HIST 1</td>
+            <td colspan="11">ICT 2</td>
+            <td colspan="12"></td>
+            <td colspan="13"></td>
+        </tr>
+        <tr>
+            <td colspan="1"></td>
+            <td colspan="2">Yr.9</td>
+            <td colspan="3">ENG 17</td>
+            <td colspan="4">SWA13/FRE5/CH16</td>
+            <td colspan="5"></td>
+            <td colspan="6">L.S 14</td>
+            <td colspan="7">L.S 14</td>
+            <td colspan="8">MATH 4</td>
+            <td colspan="9"></td>
+            <td colspan="10">P.E 13</td>
+            <td colspan="11">SCIENCE9</td>
+            <td colspan="12"></td>
+            <td colspan="13"></td>
+        </tr>
+        <tr>
+            <th rowspan="3"></th>
+            <td colspan="1"></td>
+            <td colspan="2">Yr.10</td>
+            <td colspan="3">MATH 4</td>
+            <td colspan="4">ENG 7</td>
+            <td colspan="5"></td>
+            <td colspan="6">HIST 10</td>
+            <td colspan="7">CHEM 19</td>
+            <td colspan="8">PHY 9</td>
+            <td colspan="9"></td>
+            <td colspan="10">BUS15/CHI6/FRE5</td>
+            <td colspan="11">BUS15/CHI6/FRE5</td>
+            <td colspan="12"></td>
+            <td colspan="13"></td>
+        </tr>
+        <tr>
+            <td colspan="1"></td>
+            <td colspan="2">Yr.11</td>
+            <td colspan="3">ENG 7</td>
+            <td colspan="4">MATH 4</td>
+            <td colspan="5"></td>
+            <td colspan="6">PHY 16</td>
+            <td colspan="7">GEO15/FRE5</td>
+            <td colspan="8">HIST 10</td>
+            <td colspan="9"></td>
+            <td colspan="10">BUS 4</td>
+            <td colspan="11">BUS 4</td>
+            <td colspan="12"></td>
+            <td colspan="13"></td>
+        </tr>
+        <tr>
+            <th rowspan="3">WED</th>ss
+            <td colspan="1">TIME</td>
+            <td colspan="2">Yr.7</td>
+            <td colspan="3">DEVOTION</td>
+            <td colspan="4">ICT 2</td>
+            <td colspan="5">BREAK</td>
+            <td colspan="6">MATH 11</td>
+            <td colspan="7">ENG17</td>
+            <td colspan="8">P.E13</td>
+            <td colspan="9">LUNCH</td>
+            <td colspan="10">GEO 15</td>
+            <td colspan="11">SCIENCE 9</td>
+            <td colspan="12">MUSIC 8</td>
+            <td colspan="13">FORMS TUTORS TIME</td>
+        </tr>
