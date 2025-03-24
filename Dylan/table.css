@@ -14,14 +14,14 @@
     margin: auto;
     border-collapse: collapse;
     background: white;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 .table tr{
     height: auto;
     width: auto;
 }
 .table th, .table td {
-    border: 1px solid #ddd;
+    border: 2px solid #ddd;
     padding: auto;
     text-align: center;
 }
